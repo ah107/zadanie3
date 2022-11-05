@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ahabr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-03 07:49:15 PM"/>
+        <attribute name="created" value="YWhhYnI7REVTS1RPUC1MMTBRODlCOzIwMjItMTEtMDM7MDc6MDk6MDcgUE07MjgwNA=="/>
+        <attribute name="edited" value="YWhhYnI7REVTS1RPUC1MMTBRODlCOzIwMjItMTEtMDM7MDc6NDk6MTUgUE07MTsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <input variable="b"/>
+            <while expression="b != 0">
+                <assign variable="a" expression="a+(b mod 10)"/>
+                <assign variable="b" expression="(b / 10)"/>
+            </while>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
